@@ -12,7 +12,6 @@ naughty = require("naughty")
 menubar = require("menubar")
 hotkeys_popup = require("awful.hotkeys_popup")
 require("awful.hotkeys_popup.keys")
-menubar.utils.terminal = terminal
 
 require("theme/init")
 require("base/error_handler")
